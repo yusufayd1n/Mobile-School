@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/questioMark1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark3"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark4"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/questioMark5"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark6"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark7"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark8"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/questioMark9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark" />
+
+        <ImageView
+            android:id="@+id/questioMark10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark" />
+
+
+
+        <ImageView
+            android:id="@+id/questioMark11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/question_mark" />
+
+        <ImageView
+            android:id="@+id/questioMark12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:src="@drawable/question_mark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/questioMark13"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark14"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark15"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/questioMark16"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/question_mark"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+

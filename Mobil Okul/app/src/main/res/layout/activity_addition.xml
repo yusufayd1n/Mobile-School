@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Math.Addition">
+
+    <Button
+        android:id="@+id/asnwerAddition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/custom_button3"
+        android:onClick="cevapver"
+        android:text="Cevap Ver"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/resultText"
+        android:layout_width="90dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="46dp"
+        android:textSize="25dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/equals"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/strawberry15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="39dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry13"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/strawberry17"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry17"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry13"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry18"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry17"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry14"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry19"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry18"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry15"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry19"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry16"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry22"
+        app:layout_constraintStart_toEndOf="@+id/plus"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry17"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry22"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry21"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry18"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry23"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry22"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry19"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry23"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry20"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry16"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="39dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry15"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry7"
+        app:layout_constraintStart_toEndOf="@+id/strawberry5"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry2"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry1"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry8"
+        app:layout_constraintStart_toEndOf="@+id/strawberry6"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry3"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="1dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry5"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="92dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry13"
+        app:layout_constraintStart_toEndOf="@+id/strawberry3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry4"
+        app:layout_constraintStart_toEndOf="@+id/strawberry2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/strawberry11"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry8"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry11"
+        app:layout_constraintStart_toEndOf="@+id/strawberry9"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry6"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="38dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry3"
+        app:layout_constraintStart_toEndOf="@+id/strawberry1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="38dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry11"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry12"
+        app:layout_constraintStart_toEndOf="@+id/strawberry10"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry7"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/strawberry8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="92dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry13"
+        app:layout_constraintStart_toEndOf="@+id/strawberry7"
+        app:layout_constraintTop_toBottomOf="@+id/strawberry4"
+        app:srcCompat="@drawable/strawberry" />
+
+    <ImageView
+        android:id="@+id/youtubeLinkAddition"
+        android:layout_width="99dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="redirecttoaddition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/youtube" />
+
+    <TextView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="19dp"
+        android:textColor="@color/black"
+        android:text="+"
+        android:textSize="75dp"
+        app:layout_constraintEnd_toStartOf="@+id/strawberry13"
+        app:layout_constraintStart_toEndOf="@+id/strawberry4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/equals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="25dp"
+        android:textColor="@color/black"
+        android:text="="
+        android:textSize="75dp"
+        app:layout_constraintEnd_toStartOf="@+id/resultText"
+        app:layout_constraintStart_toEndOf="@+id/strawberry16"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

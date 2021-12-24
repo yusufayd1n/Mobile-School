@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bookbackground"
+    tools:context=".Turkish.BookSelection">
+
+    <ImageView
+        android:id="@+id/birdsCover"
+        android:layout_width="195dp"
+        android:layout_height="350dp"
+        android:layout_marginEnd="3dp"
+        android:onClick="birds"
+        app:layout_constraintBottom_toTopOf="@+id/forestCover"
+        app:layout_constraintEnd_toStartOf="@+id/dreamsCover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/birdscover" />
+
+    <ImageView
+        android:id="@+id/dreamsCover"
+        android:layout_width="195dp"
+        android:layout_height="350dp"
+        android:onClick="dreams"
+        app:layout_constraintBottom_toTopOf="@+id/friendCover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/birdsCover"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dreamcover" />
+
+    <ImageView
+        android:id="@+id/forestCover"
+        android:layout_width="195dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:onClick="forest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/friendCover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birdsCover"
+        app:srcCompat="@drawable/forestcover" />
+
+    <ImageView
+        android:id="@+id/friendCover"
+        android:layout_width="195dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:onClick="friend"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/forestCover"
+        app:layout_constraintTop_toBottomOf="@+id/dreamsCover"
+        app:srcCompat="@drawable/friendcover" />
+</androidx.constraintlayout.widget.ConstraintLayout>

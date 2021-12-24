@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cikarmalayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cikarmabackground"
+    tools:context=".Math.Extraction">
+
+
+    <ImageView
+        android:id="@+id/youtubeLinkExtraction"
+        android:layout_width="99dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="redirecttoExtraction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/youtube" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/sadRabbit"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/sad_rabbit"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/A"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="getAnswer"
+        android:src="@drawable/carrot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/B" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/B"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="getAnswer"
+        android:src="@drawable/carrot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/C" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/C"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="getAnswer"
+        android:src="@drawable/carrot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/D" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/D"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="getAnswer"
+        android:src="@drawable/carrot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/extractionNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="204dp"
+        android:gravity="center"
+        android:fontFamily="@font/goblin_one"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/Rabbit"
+        android:layout_width="197dp"
+        android:layout_height="167dp"
+        android:src="@drawable/rabbit"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/hungryRabbit"
+        android:layout_width="197dp"
+        android:layout_height="167dp"
+        android:src="@drawable/hungryrabbit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/extractionNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/goblin_one"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/mines"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/goblin_one"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/extractionNumber2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Cnumber"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/ranchers"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/C"
+        app:layout_constraintEnd_toStartOf="@+id/Dnumber" />
+
+    <TextView
+        android:id="@+id/Anumber"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/ranchers"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/A"
+        app:layout_constraintEnd_toStartOf="@+id/Bnumber" />
+
+    <TextView
+        android:id="@+id/Bnumber"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:fontFamily="@font/ranchers"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/B"
+        app:layout_constraintEnd_toStartOf="@+id/Cnumber" />
+
+    <TextView
+        android:id="@+id/Dnumber"
+        android:layout_width="103dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:fontFamily="@font/ranchers"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/D"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

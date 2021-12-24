@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selectionbackground"
+    tools:context=".Selection">
+
+    <ImageView
+        android:id="@+id/additionDirect"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:layout_marginEnd="1dp"
+        android:onClick="toaddition"
+        app:layout_constraintBottom_toTopOf="@+id/readingDirect"
+        app:layout_constraintEnd_toStartOf="@+id/minesDirect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toplama" />
+
+    <ImageView
+        android:id="@+id/minesDirect"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:onClick="tomines"
+        app:layout_constraintBottom_toTopOf="@+id/englishDirect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/additionDirect"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cikarma" />
+
+    <ImageView
+        android:id="@+id/englishDirect"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        android:onClick="toEnglish"
+        app:layout_constraintBottom_toTopOf="@+id/memoryGameDirect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/readingDirect"
+        app:layout_constraintTop_toBottomOf="@+id/minesDirect"
+        app:srcCompat="@drawable/english" />
+
+    <ImageView
+        android:id="@+id/readingDirect"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        android:onClick="toReading"
+        app:layout_constraintBottom_toTopOf="@+id/alphabetDirect"
+        app:layout_constraintEnd_toStartOf="@+id/englishDirect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/additionDirect"
+        app:srcCompat="@drawable/reading" />
+
+    <ImageView
+        android:id="@+id/memoryGameDirect"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="toMemoryGame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/alphabetDirect"
+        app:layout_constraintTop_toBottomOf="@+id/englishDirect"
+        app:srcCompat="@drawable/memorygame" />
+
+    <ImageView
+        android:id="@+id/alphabetDirect"
+        android:layout_width="195dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="toAlphabetWheel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/memoryGameDirect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/readingDirect"
+        app:srcCompat="@drawable/alphabet" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

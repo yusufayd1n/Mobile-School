@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobil Okul</string>
+    <string name="tittle">Öğrenmeye Ne Dersin?</string>
+    <string name="text">Matematik hakkında bilgin var mı yoksa senin için öğretici video açabilirim?</string>
+    <string name="yes">Olur</string>
+    <string name="no">Kendim Yapabilirim</string>
+    <string name="tittleMemoryGame">Tekrar oynamak ister misin?</string>
+    <string name="textMemoryGame">Tebrikler oyunu bitirdin yeniden oynamak ister misin?</string>
+    <string name="yesMemoryGame">Evet</string>
+    <string name="noMemoryGame">Hayır</string>
+</resources>
