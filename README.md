@@ -7,3 +7,5 @@ App can read books for kids or kids can read them self.
 It can open tutorialVideos for kids.
 
 Helping them to what English words mean and how to pronounce.
+
+Pictures from the app
