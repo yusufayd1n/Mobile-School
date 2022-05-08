@@ -8,6 +8,10 @@ It can open tutorialVideos for kids.
 
 Helping them to what English words mean and how to pronounce.
 
+USED Third Party Librarys
+-PDF-Viewer
+-YouTubePlayerView
+
 Pictures from the app
 
 ![1](https://user-images.githubusercontent.com/78793991/147372357-63a5b057-3f14-41e2-b048-2986328b5544.PNG)
