@@ -11,6 +11,7 @@ Helping them to what English words mean and how to pronounce.
 USED Third Party Librarys
 
 -PDF-Viewer
+
 -YouTubePlayerView
 
 Pictures from the app
